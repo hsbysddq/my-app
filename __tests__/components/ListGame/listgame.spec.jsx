@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import ListGame from '../../../components/ListGame/ListGame'
 import renderer from "react-test-renderer"
+import ListGame from '../../../components/ListGame/ListGame'
 
 describe('ListGame', () => {
     it('renders a heading', () => {

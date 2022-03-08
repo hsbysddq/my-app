@@ -1,15 +1,607 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Index matches the snapshot 1`] = `
-Array [
+<div
+  className="overflow-hidden"
+>
   <div
-    className="bg-hero bg-cover bg-primary h-[1050px]"
+    className="bg-[#5956E9] no-repeat bg-cover w-screen font-body relative overflow-hidden"
   >
     <div
-      className="container mx-auto"
+      className="absolute xl:ml-[-215px] xl:mt-[-185px] xl:flex lg:ml-[-215px] lg:mt-[-185px] lg:flex md:ml-[-215px] md:mt-[-185px] md:flex sm:ml-[-215px] sm:mt-[-185px]"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "relative",
+            "width": "initial",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27280%27%20height=%27280%27/%3e"
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "padding": 0,
+                "width": "initial",
+              }
+            }
+          />
+        </span>
+        <img
+          alt="Asset-Kuning"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            alt="Asset-Kuning"
+            data-nimg="intrinsic"
+            decoding="async"
+            loading="lazy"
+            src="/images/kuning.svg"
+            srcSet="/images/kuning.svg 1x, /images/kuning.svg 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </div>
+    <div
+      className="absolute xl:left-[50%] xl:top-[20%] xl:flex lg:left-[53%] lg:top-[17%] lg:flex md:hidden sm:hidden"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "relative",
+            "width": "initial",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27120%27%20height=%27120%27/%3e"
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "padding": 0,
+                "width": "initial",
+              }
+            }
+          />
+        </span>
+        <img
+          alt="Lingkaran-Kuning"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            alt="Lingkaran-Kuning"
+            data-nimg="intrinsic"
+            decoding="async"
+            loading="lazy"
+            src="/images/kuning.svg"
+            srcSet="/images/kuning.svg 1x, /images/kuning.svg 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </div>
+    <div
+      className="absolute xl:top-[-12%] xl:right-[-40%] xl:flex lg:top-[-32%] lg:right-[-60%] lg:flex md:top-[-12%] md:right-[-93%] md:flex sm:hidden"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "relative",
+            "width": "initial",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27964%27%20height=%27964%27/%3e"
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "padding": 0,
+                "width": "initial",
+              }
+            }
+          />
+        </span>
+        <img
+          alt="Asset-Pink"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            alt="Asset-Pink"
+            data-nimg="intrinsic"
+            decoding="async"
+            loading="lazy"
+            src="/images/merah-muda.svg"
+            srcSet="/images/merah-muda.svg 1x, /images/merah-muda.svg 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </div>
+    <div
+      className="absolute xl:left-[70%] xl:top-[34%] xl:block lg:left-[70%] lg:top-[34%] lg:flex md:left-[70%] md:top-[40%] md:flex sm:hidden"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "relative",
+            "width": "initial",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27458%27%20height=%27308%27/%3e"
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "padding": 0,
+                "width": "initial",
+              }
+            }
+          />
+        </span>
+        <img
+          alt="Asset-Game"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            alt="Asset-Game"
+            data-nimg="intrinsic"
+            decoding="async"
+            loading="lazy"
+            src="/images/orang.svg"
+            srcSet="/images/orang.svg 1x, /images/orang.svg 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </div>
+    <div
+      className="absolute xl:left-[82%] xl:top-[78%] xl:flex lg:left-[82%] lg:top-[70%] lg:flex md:left-[82%] md:top-[67%] md:flex sm:hidden"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "relative",
+            "width": "initial",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2779%27%20height=%2731%27/%3e"
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "padding": 0,
+                "width": "initial",
+              }
+            }
+          />
+        </span>
+        <img
+          alt="Asset-Batu"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            alt="Asset-Batu"
+            data-nimg="intrinsic"
+            decoding="async"
+            loading="lazy"
+            src="/images/batu.svg"
+            srcSet="/images/batu.svg 1x, /images/batu.svg 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </div>
+    <div
+      className="container mx-auto px-[6%] overflow-y-hidden"
     >
       <div
-        className="flex pt-16 items-center"
+        className="flex xl:pt-[4%] lg:pt-[4%] md:pt-[4%]  sm:pt-[4%] items-center overflow-hidden relative"
       >
         <div
           className="w-3/12"
@@ -155,59 +747,67 @@ Array [
           </ul>
         </div>
         <div
-          className="w-3/12 space-x-5 text-right"
+          className="xl:w-1/3 lg:w-[40%] md:w-[40%] sm:w-[50%] space-x-5 text-right"
         >
-          <a
-            className="text-lg py-3 px-10 rounded-2.5xl inline-block cursor-pointer bg-white text-primary"
-            href="/login"
+          <button
+            className="xl:text-lg xl:py-3 xl:px-10 lg:text-lg lg:py-3 lg:px-8 md:px-6 md:text-md md:py-2.5 sm:px-6 sm:text-sm sm:py-2.5 rounded-2.5xl inline-block bg-white"
             onClick={[Function]}
-            onMouseEnter={[Function]}
           >
             Login
-          </a>
-          <a
-            className="text-lg py-3 px-10 rounded-2.5xl inline-block cursor-pointer bg-white text-primary"
-            href="/register"
+          </button>
+          <button
+            className="xl:text-lg xl:py-3 xl:px-10 lg:text-lg lg:py-3 lg:px-8 md:px-6 md:text-md md:py-2.5 sm:px-6 sm:text-sm sm:py-2.5 rounded-2.5xl inline-block bg-white"
             onClick={[Function]}
-            onMouseEnter={[Function]}
           >
             Register
-          </a>
+          </button>
         </div>
       </div>
       <div
-        className="w-5/12 pt-32"
+        className="xl:w-[55%] lg:w-[60%] md:w-[60%] sm:w-[100%] mt-[4%]"
       >
         <h1
-          className="text-white text-8xl font-bold font-body pr-32"
+          className="text-white xl:text-8xl lg:text-7xl md:text-5xl sm:text-4xl xl:ml-[0] lg:ml-[0] md:ml-[0] sm:ml-[30%] font-bold font-body pr-32"
         >
-          let's show your talent for game
+          lets show your talent for game
         </h1>
         <div
-          className="ml-20"
+          className="xl:ml-[0] lg:ml-[0] md:ml-[0] sm:ml-[40%] mt-[5%]"
         >
           <a
-            className="xl:text-lg xl:py-3 xl:px-10 lg:text-lg lg:py-3 lg:px-8 md:px-6 md:text-md md:py-2.5 sm:px-6 sm:text-sm sm:py-2.5 rounded-2.5xl inline-block bg-yellow-500  mt-14"
+            className="xl:text-lg xl:py-3 xl:px-10 lg:text-lg lg:py-3 lg:px-8 md:px-6 md:text-md md:py-2.5 sm:px-6 sm:text-sm sm:py-2.5 rounded-2.5xl inline-block bg-yellow-500 "
           >
             Get Started
           </a>
         </div>
       </div>
     </div>
-  </div>,
-  <section
-    className="pt-20"
-  >
+    <div
+      className="sticky"
+    >
+      <svg
+        viewBox="0 0 1440 320"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0,160L48,170.7C96,181,192,203,288,218.7C384,235,480,245,576,224C672,203,768,149,864,144C960,139,1056,181,1152,208C1248,235,1344,245,1392,250.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          fill="#FFFFFF"
+          fillOpacity="1"
+        />
+      </svg>
+    </div>
+  </div>
+  <section>
     <div
       className="container mx-auto"
     >
       <h2
-        className="text-8xl font-bold font-body text-center"
+        className="xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl font-bold font-body text-center"
       >
         List Game
       </h2>
       <div
-        className="flex w-9/12 mx-auto mt-16"
+        className="flex w-9/12 mx-auto xl:mt-16 lg:mt-12 md:mt-8 sm:mt-8"
       >
         <div
           className="w-4/12"
@@ -589,9 +1189,40 @@ Array [
         </div>
       </div>
     </div>
-  </section>,
+    <div
+      className="container mt-14"
+    >
+      <div
+        className="relative pt-[56.25%]"
+      >
+        <div
+          className="absolute top-0 left-0"
+          style={
+            Object {
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="sticky"
+    >
+      <svg
+        viewBox="0 0 1440 320"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0,224L48,208C96,192,192,160,288,170.7C384,181,480,235,576,240C672,245,768,203,864,197.3C960,192,1056,224,1152,218.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          fill="#5956E9"
+          fillOpacity="1"
+        />
+      </svg>
+    </div>
+  </section>
   <section
-    className="bg-section bg-cover pt-96 pb-20"
+    className="bg-[#5956E9] xl:mt-[-7%] lg:mt-[-8%] md:mt-[-11%] sm:mt-[-13%] pb-20"
     id="about"
   >
     <div
@@ -649,7 +1280,7 @@ Array [
         </p>
       </div>
     </div>
-  </section>,
+  </section>
   <section
     className="py-20 font-body"
   >
@@ -792,7 +1423,7 @@ Array [
           </p>
         </div>
         <div
-          className="w-4/12 px-16"
+          className="w-4/12 xl:px-16 lg:px-16 md:px-14 sm:px-7"
         >
           <h3
             className="xl:text-3xl lg:text-2xl"
@@ -845,7 +1476,7 @@ Array [
           </ul>
         </div>
         <div
-          className="xl:w-4/12 lg:w-4/12 md:w-[45%] px-16"
+          className="xl:w-4/12 lg:w-4/12 md:w-[45%] sm:w-[60%] xl:px-16 lg:px-16 md:px-14 sm:px-7"
         >
           <h3
             className="xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl"
@@ -878,7 +1509,7 @@ Array [
         </div>
       </div>
     </div>
-  </section>,
+  </section>
   <footer>
     <div
       className="container text-center py-10"
@@ -887,6 +1518,6 @@ Array [
         ©2022 Impostor Team. All Rights Reserved
       </p>
     </div>
-  </footer>,
-]
+  </footer>
+</div>
 `;

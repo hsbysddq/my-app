@@ -1,40 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ListGame matches the snapshot 1`] = `
-<section
-  className="bg-white xl:pt-16 lg:pt-8 md:pt-6 sm:pt-4"
->
+<section>
   <div
     className="container mx-auto"
   >
     <h2
-      className="xl:text-8xl lg:text-6xl md:text-5xl sm:text-5xl font-bold font-body text-center"
+      className="xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl font-bold font-body text-center"
     >
       List Game
     </h2>
     <div
-      className="flex w-9/12 mx-auto mt-16"
+      className="flex w-9/12 mx-auto xl:mt-16 lg:mt-12 md:mt-8 sm:mt-8"
     >
       <div
         className="w-4/12"
       >
-        <span
-          style={
-            Object {
-              "background": "none",
-              "border": 0,
-              "boxSizing": "border-box",
-              "display": "inline-block",
-              "height": "initial",
-              "margin": 0,
-              "maxWidth": "100%",
-              "opacity": 1,
-              "overflow": "hidden",
-              "padding": 0,
-              "position": "relative",
-              "width": "initial",
-            }
-          }
+        <a
+          href="/login"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
           <span
             style={
@@ -42,24 +27,24 @@ exports[`ListGame matches the snapshot 1`] = `
                 "background": "none",
                 "border": 0,
                 "boxSizing": "border-box",
-                "display": "block",
+                "display": "inline-block",
                 "height": "initial",
                 "margin": 0,
                 "maxWidth": "100%",
                 "opacity": 1,
+                "overflow": "hidden",
                 "padding": 0,
+                "position": "relative",
                 "width": "initial",
               }
             }
           >
-            <img
-              alt=""
-              aria-hidden={true}
-              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27294%27%20height=%27217%27/%3e"
+            <span
               style={
                 Object {
                   "background": "none",
                   "border": 0,
+                  "boxSizing": "border-box",
                   "display": "block",
                   "height": "initial",
                   "margin": 0,
@@ -69,46 +54,32 @@ exports[`ListGame matches the snapshot 1`] = `
                   "width": "initial",
                 }
               }
-            />
-          </span>
-          <img
-            alt="game1"
-            className="cursor-pointer"
-            data-nimg="intrinsic"
-            decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style={
-              Object {
-                "border": "none",
-                "bottom": 0,
-                "boxSizing": "border-box",
-                "display": "block",
-                "height": 0,
-                "left": 0,
-                "margin": "auto",
-                "maxHeight": "100%",
-                "maxWidth": "100%",
-                "minHeight": "100%",
-                "minWidth": "100%",
-                "objectFit": undefined,
-                "objectPosition": undefined,
-                "padding": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-                "width": 0,
-              }
-            }
-          />
-          <noscript>
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27294%27%20height=%27217%27/%3e"
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "display": "block",
+                    "height": "initial",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "opacity": 1,
+                    "padding": 0,
+                    "width": "initial",
+                  }
+                }
+              />
+            </span>
             <img
               alt="game1"
               className="cursor-pointer"
               data-nimg="intrinsic"
               decoding="async"
-              loading="lazy"
-              src="/_next/image?url=%2Fimages%2Fgame1.png&w=640&q=75"
-              srcSet="/_next/image?url=%2Fimages%2Fgame1.png&w=384&q=75 1x, /_next/image?url=%2Fimages%2Fgame1.png&w=640&q=75 2x"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
                 Object {
                   "border": "none",
@@ -132,29 +103,49 @@ exports[`ListGame matches the snapshot 1`] = `
                 }
               }
             />
-          </noscript>
-        </span>
+            <noscript>
+              <img
+                alt="game1"
+                className="cursor-pointer"
+                data-nimg="intrinsic"
+                decoding="async"
+                loading="lazy"
+                src="/_next/image?url=%2Fimages%2Fgame1.png&w=640&q=75"
+                srcSet="/_next/image?url=%2Fimages%2Fgame1.png&w=384&q=75 1x, /_next/image?url=%2Fimages%2Fgame1.png&w=640&q=75 2x"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+        </a>
       </div>
       <div
         className="w-4/12"
       >
-        <span
-          style={
-            Object {
-              "background": "none",
-              "border": 0,
-              "boxSizing": "border-box",
-              "display": "inline-block",
-              "height": "initial",
-              "margin": 0,
-              "maxWidth": "100%",
-              "opacity": 1,
-              "overflow": "hidden",
-              "padding": 0,
-              "position": "relative",
-              "width": "initial",
-            }
-          }
+        <a
+          href="/login"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
           <span
             style={
@@ -162,24 +153,24 @@ exports[`ListGame matches the snapshot 1`] = `
                 "background": "none",
                 "border": 0,
                 "boxSizing": "border-box",
-                "display": "block",
+                "display": "inline-block",
                 "height": "initial",
                 "margin": 0,
                 "maxWidth": "100%",
                 "opacity": 1,
+                "overflow": "hidden",
                 "padding": 0,
+                "position": "relative",
                 "width": "initial",
               }
             }
           >
-            <img
-              alt=""
-              aria-hidden={true}
-              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27294%27%20height=%27217%27/%3e"
+            <span
               style={
                 Object {
                   "background": "none",
                   "border": 0,
+                  "boxSizing": "border-box",
                   "display": "block",
                   "height": "initial",
                   "margin": 0,
@@ -189,46 +180,32 @@ exports[`ListGame matches the snapshot 1`] = `
                   "width": "initial",
                 }
               }
-            />
-          </span>
-          <img
-            alt="game2"
-            className="cursor-pointer"
-            data-nimg="intrinsic"
-            decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style={
-              Object {
-                "border": "none",
-                "bottom": 0,
-                "boxSizing": "border-box",
-                "display": "block",
-                "height": 0,
-                "left": 0,
-                "margin": "auto",
-                "maxHeight": "100%",
-                "maxWidth": "100%",
-                "minHeight": "100%",
-                "minWidth": "100%",
-                "objectFit": undefined,
-                "objectPosition": undefined,
-                "padding": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-                "width": 0,
-              }
-            }
-          />
-          <noscript>
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27294%27%20height=%27217%27/%3e"
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "display": "block",
+                    "height": "initial",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "opacity": 1,
+                    "padding": 0,
+                    "width": "initial",
+                  }
+                }
+              />
+            </span>
             <img
               alt="game2"
               className="cursor-pointer"
               data-nimg="intrinsic"
               decoding="async"
-              loading="lazy"
-              src="/_next/image?url=%2Fimages%2Fgame2.png&w=640&q=75"
-              srcSet="/_next/image?url=%2Fimages%2Fgame2.png&w=384&q=75 1x, /_next/image?url=%2Fimages%2Fgame2.png&w=640&q=75 2x"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
                 Object {
                   "border": "none",
@@ -252,29 +229,49 @@ exports[`ListGame matches the snapshot 1`] = `
                 }
               }
             />
-          </noscript>
-        </span>
+            <noscript>
+              <img
+                alt="game2"
+                className="cursor-pointer"
+                data-nimg="intrinsic"
+                decoding="async"
+                loading="lazy"
+                src="/_next/image?url=%2Fimages%2Fgame2.png&w=640&q=75"
+                srcSet="/_next/image?url=%2Fimages%2Fgame2.png&w=384&q=75 1x, /_next/image?url=%2Fimages%2Fgame2.png&w=640&q=75 2x"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+        </a>
       </div>
       <div
         className="w-4/12"
       >
-        <span
-          style={
-            Object {
-              "background": "none",
-              "border": 0,
-              "boxSizing": "border-box",
-              "display": "inline-block",
-              "height": "initial",
-              "margin": 0,
-              "maxWidth": "100%",
-              "opacity": 1,
-              "overflow": "hidden",
-              "padding": 0,
-              "position": "relative",
-              "width": "initial",
-            }
-          }
+        <a
+          href="/login"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
         >
           <span
             style={
@@ -282,24 +279,24 @@ exports[`ListGame matches the snapshot 1`] = `
                 "background": "none",
                 "border": 0,
                 "boxSizing": "border-box",
-                "display": "block",
+                "display": "inline-block",
                 "height": "initial",
                 "margin": 0,
                 "maxWidth": "100%",
                 "opacity": 1,
+                "overflow": "hidden",
                 "padding": 0,
+                "position": "relative",
                 "width": "initial",
               }
             }
           >
-            <img
-              alt=""
-              aria-hidden={true}
-              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27294%27%20height=%27217%27/%3e"
+            <span
               style={
                 Object {
                   "background": "none",
                   "border": 0,
+                  "boxSizing": "border-box",
                   "display": "block",
                   "height": "initial",
                   "margin": 0,
@@ -309,46 +306,32 @@ exports[`ListGame matches the snapshot 1`] = `
                   "width": "initial",
                 }
               }
-            />
-          </span>
-          <img
-            alt="game3"
-            className="cursor-pointer"
-            data-nimg="intrinsic"
-            decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style={
-              Object {
-                "border": "none",
-                "bottom": 0,
-                "boxSizing": "border-box",
-                "display": "block",
-                "height": 0,
-                "left": 0,
-                "margin": "auto",
-                "maxHeight": "100%",
-                "maxWidth": "100%",
-                "minHeight": "100%",
-                "minWidth": "100%",
-                "objectFit": undefined,
-                "objectPosition": undefined,
-                "padding": 0,
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-                "width": 0,
-              }
-            }
-          />
-          <noscript>
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27294%27%20height=%27217%27/%3e"
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "display": "block",
+                    "height": "initial",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "opacity": 1,
+                    "padding": 0,
+                    "width": "initial",
+                  }
+                }
+              />
+            </span>
             <img
               alt="game3"
               className="cursor-pointer"
               data-nimg="intrinsic"
               decoding="async"
-              loading="lazy"
-              src="/_next/image?url=%2Fimages%2Fgame3.png&w=640&q=75"
-              srcSet="/_next/image?url=%2Fimages%2Fgame3.png&w=384&q=75 1x, /_next/image?url=%2Fimages%2Fgame3.png&w=640&q=75 2x"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
                 Object {
                   "border": "none",
@@ -372,13 +355,75 @@ exports[`ListGame matches the snapshot 1`] = `
                 }
               }
             />
-          </noscript>
-        </span>
+            <noscript>
+              <img
+                alt="game3"
+                className="cursor-pointer"
+                data-nimg="intrinsic"
+                decoding="async"
+                loading="lazy"
+                src="/_next/image?url=%2Fimages%2Fgame3.png&w=640&q=75"
+                srcSet="/_next/image?url=%2Fimages%2Fgame3.png&w=384&q=75 1x, /_next/image?url=%2Fimages%2Fgame3.png&w=640&q=75 2x"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+        </a>
       </div>
     </div>
   </div>
   <div
-    className="sticky xl:mb-[-7%] lg:mb-[-7.8%] md:mb-[-10.5%] sm:mb-[-12.8%]"
+    className="container mt-14"
+  >
+    <div
+      className="relative pt-[56.25%]"
+    >
+      <div
+        className="absolute top-0 left-0"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "display": undefined,
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        >
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sticky"
   >
     <svg
       viewBox="0 0 1440 320"

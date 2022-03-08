@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import AssetKuning from '/components/Assets/AssetKuning';
-import LingkaranKuning from '/components/Assets/LingkaranKuning';
-import AssetPink from '/components/Assets/AssetPink';
-import AssetGame from '/components/Assets/AssetGame';
-import AssetBatu from '/components/Assets/AssetBatu';
-import Navbar from "/components/Navbar/Navbar";
-import Button from "/components/Navbar/Button/Button";
+import AssetKuning from '../../components/Assets/AssetKuning';
+import LingkaranKuning from '../../components/Assets/LingkaranKuning';
+import AssetPink from '../../components/Assets/AssetPink';
+import AssetGame from '../../components/Assets/AssetGame';
+import AssetBatu from '../../components/Assets/AssetBatu';
+import Navbar from '../../components/Navbar/Navbar';
+import Button from '../../components/Navbar/Button/Button';
 
 const Main = () => {
     return (
