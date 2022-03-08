@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useEffect } from 'react';
+import { useEffect } from 'react'
 import Cookies from 'js-cookie';
 
 import {
@@ -23,10 +23,10 @@ import { connect, useDispatch } from 'react-redux';
 import { clearState } from '../../../redux/actions/users';
 import { clearStateGame } from '../../../redux/actions/game';
 
-function Navbar(props) {
+const Navbar = (props) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-  const [fotoProfile, setFotoProfile] = React.useState('');
+  const [fotoProfile, setFotoProfile] = React.useState("");
 
   const router = useRouter();
   const dispatch = useDispatch();
@@ -57,10 +57,10 @@ function Navbar(props) {
   };
 
   const handleLogout = () => {
-    setFotoProfile('');
-    Cookies.remove('data');
-    Cookies.remove('score');
-    Cookies.remove('token');
+    setFotoProfile("")
+    Cookies.remove('data')
+    Cookies.remove('score')
+    Cookies.remove('token')
     dispatch(clearState());
     dispatch(clearStateGame());
     router.push('/');
@@ -208,11 +208,11 @@ function Navbar(props) {
       </Container>
     </AppBar>
   );
-}
+};
 // export default Navbar;
 
 const mapStateToProps = (state) => ({
-  user: state.users.user,
+  user: state.users.user
 });
 
 // const mapDispatchToProps = (dispatch) => ({

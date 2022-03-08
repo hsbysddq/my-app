@@ -22,7 +22,7 @@ export const registerUser = (payload) => async (dispatch) => {
   });
 
   // post data
-  await axios.post('http://localhost:7000/api/register', payload)
+  await axios.post(`https://server-impostor.herokuapp.com/api/register`, payload)
     .then((res) => {
       console.log('success: ', res);
       dispatch({
@@ -62,9 +62,9 @@ export const loginUser = (payload) => async (dispatch) => {
   });
 
   // post data
-  await axios.post('http://localhost:7000/api/login', payload)
+  await axios.post(`https://server-impostor.herokuapp.com/api/login`, payload)
     .then((res) => {
-      console.log('res login: ', res);
+      console.log("res login: ", res);
       const token = res.data.accessToken;
       console.log('token:', token);
       Cookies.set('token', token);
@@ -109,10 +109,10 @@ export const updateProfile = (payload) => (dispatch) => {
   });
 
   axios
-    .put(`http://localhost:7000/api/users/${payload.id}`, payload)
+    .put(`https://server-impostor.herokuapp.com/api/users/${payload.id}`, payload)
     .then((res) => {
       console.log('res update biodata:', res);
-      Cookies.set('data', JSON.stringify(res.data));
+      Cookies.set('data', JSON.stringify(res.data))
       dispatch({
         type: UPDATE_PROFILE,
         payload: {
@@ -150,7 +150,7 @@ export const forgotPassword = (payload) => (dispatch) => {
   });
 
   axios
-    .put('http://localhost:7000/api/forgot-password', { email: payload })
+    .put(`https://server-impostor.herokuapp.com/api/forgot-password`, { email: payload })
     .then((res) => {
       console.log('res forgot-password:', res);
       dispatch({
@@ -175,12 +175,14 @@ export const forgotPassword = (payload) => (dispatch) => {
         },
       });
     });
-};
+}
 
-export const clearState = () => ({
-  type: CLEAR_STATE,
-  payload: {
-    user: null,
-    redirect: false,
-  },
-});
+export const clearState = () => {
+  return {
+    type: CLEAR_STATE,
+    payload: {
+      user: null,
+      redirect: false
+    }
+  }
+}

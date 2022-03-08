@@ -45,8 +45,8 @@ function EditProfile(props) {
   }
 
   const onInputUsername = (e) => {
-    setUsername(e.target.value);
-  };
+    setUsername(e.target.value)
+  }
 
   async function handleUpdate(e){
     e.preventDefault()

@@ -12,13 +12,11 @@ import { connect } from 'react-redux';
 import { playedGame1 } from '../../../redux/actions/game';
 import { LastPlayed } from '../LastPlayed';
 
-function List(props) {
-  const router = useRouter();
-  const {
-    played1, played2, played3, played4, played5, played6,
-  } = props;
+const List = (props) => {
+  const router = useRouter()
+  const { played1, played2, played3, played4, played5, played6 } = props;
   const handleOnClick = () => {
-    router.push('/top-score');
+    router.push('/top-score')
   };
 
   const handlePlayGame = () => {
@@ -26,8 +24,8 @@ function List(props) {
   };
   return (
     <main>
-      <Container maxWidth="md" className="pt-10">
-        <Typography variant="h4" align="center" pb={3} className="font-body">
+      <Container maxWidth='md' className='pt-10'>
+        <Typography variant='h4' align='center' pb={3} className='font-body'>
           List Game
         </Typography>
         <Grid container spacing={4}>
@@ -209,7 +207,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  playedGame1: () => dispatch(playedGame1()),
-});
+  playedGame1: () => dispatch(playedGame1())
+})
 
 export default connect(mapStateToProps, mapDispatchToProps)(List);
